@@ -73,7 +73,7 @@ Assuming:
 - security is set to SYS,
 - specific UID and GID mappings are configured,
 
-then—thanks to the brute-force module (explained later) and some patience—it is still possible to reach the target
+then—thanks to the brute-force module (explained later) and some patience—it is still possible to get access to the target
 
 
 
