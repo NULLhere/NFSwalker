@@ -5,7 +5,7 @@ A modern user-space NFS client with proxy support
 
 <h1>ABOUT</h1>
 
-This tool is a user-space NFS client. During penetration testing or red teaming activities, mount cannot be combined with the use of a proxy, and nfspy is still stuck on Python 2. Therefore, this project was created to provide a more modern alternative to what is typically used to test NFS shares.
+This tool is a user-space NFS client. During penetration testing or red teaming activities, mount cannot be used unless proper port forwarding is configured, or unless it operates over an SSH proxy, and nfspy is still stuck on Python 2. Therefore, this project was created to provide a more modern alternative to what is typically used to test NFS shares.
 
 It currently supports: NFSv3, NFSv4, and NFSv4.1.
 It allows the use of a proxy, directory listing, file reading and writing without mounting the remote share locally. Additionally, it performs user spoofing by letting the tester choose which UID, GID, and hostname to use when accessing the NFS server in case of whitelisting.
