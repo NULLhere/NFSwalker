@@ -98,11 +98,11 @@ Examples:
     parser.add_argument("--uid", 
                        type=int, 
                        default=65534,
-                       help="User ID for AUTH_UNIX (default: 65534)")
+                       help="User ID (default: 65534)")
     parser.add_argument("--gid", 
                        type=int, 
                        default=65534,
-                       help="Group ID for AUTH_UNIX (default: 65534)")
+                       help="Group ID (default: 65534)")
     parser.add_argument("--gids", 
                        help="Additional group IDs (comma-separated)")
 
