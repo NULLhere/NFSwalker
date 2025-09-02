@@ -5,7 +5,7 @@ A modern user-space NFS client with proxy support
 
 <h1>ABOUT</h1>
 
-This tool is a user-space NFS client. During penetration testing or red teaming activities, mount has many limitations and nfspy is still stuck on Python 2. Therefore, this project was created to provide a more modern alternative to what is typically used to test NFS shares.
+This tool is a user-space NFS client. During penetration testing or red teaming activities, mount has many limitations and nfspy is still stuck on Python 2. Therefore, this project was created to provide a more modern alternative to what is typically used to test NFS shares. 
 
 It currently supports: NFSv3, NFSv4, and NFSv4.1.
 It allows the use of a proxy, directory listing, file reading and writing without mounting the remote share locally. Additionally, it performs user spoofing by letting the tester choose which UID, GID, and hostname to use when accessing the NFS server in case of whitelisting.
@@ -65,7 +65,7 @@ Theoretically, with 777 (which is how Windows maps and translates the ACLs set b
 Nope! Because the share configuration only allows READ and LOOKUP operations.
 Fundamentally, both types of permissions must match for the user to be able to perform actions.
 
-That said, for a Linux server it’s straightforward: the UID and GID correspond to the owners of the resources being requested. Once obtained, you can impersonate that identity and access the target content.
+That said, for a Linux server it’s straightforward: the UID and GID correspond to the owners of the resources being requested. Once obtained, you can impersonate that identity and access the target content. For more info about how NFS works, the author of NFSpy made a good description: https://github.com/bonsaiviking/NfSpy
 For a Windows server, it’s more complex—especially when detailed FATTR4_ACL attributes are not enabled, as UID and GID are not returned.
 Assuming:
 
