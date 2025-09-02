@@ -71,7 +71,7 @@ For a Windows server, it’s more complex—especially when detailed FATTR4_ACL 
 Assuming:
 
 - anonymous access is disabled,
-- security is set to SYS,
+- security is set to SYS rather than KRB5,
 - specific UID and GID mappings are configured,
 
 then—thanks to the brute-force module (explained later) and some patience—it is still possible to get access to the target
