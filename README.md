@@ -88,7 +88,7 @@ However, keep in mind that if the NFS server is configured to accept connections
 
 ### BRUTEFORCE
 ***
-This feature was designed for scenarios where anonymous access to the NFS share is not allowed, and no valid user credentials are known to access it.
+This feature was designed for scenarios where anonymous access to the NFS share is not allowed, and no valid user infos are known to access it.
 Fundamentally, the tool performs an iterative brute-force over a list of provided UID and GID values, until it identifies one of the following:
 
 - A UID/GID combination that grants at least readdir permission
