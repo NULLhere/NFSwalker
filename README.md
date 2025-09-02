@@ -65,7 +65,7 @@ Theoretically, with 777 (which is how Windows maps and translates the ACLs set b
 Nope! Because the share configuration only allows READ and LOOKUP operations.
 Fundamentally, both types of permissions must match for the user to be able to perform actions.
 
-That said, for a Linux server it’s straightforward: the UID and GID correspond to the owners of the resources being requested. Once obtained, you can impersonate that identity and access the target content. For more info about how NFS works, the author of NFSpy made a good description: https://github.com/bonsaiviking/NfSpy
+That said, for a Linux server it’s straightforward: the UID and GID correspond to the owners of the resources being requested. Once obtained, you can impersonate that identity and access the target content. For more info about how NFS works, the author of NFSpy explained it very well: https://github.com/bonsaiviking/NfSpy
 
 For a Windows server, it’s more complex—especially when detailed FATTR4_ACL attributes are not enabled, as UID and GID are not returned.
 Assuming:
