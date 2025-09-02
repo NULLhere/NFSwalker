@@ -147,7 +147,7 @@ Examples:
                       help="Target NFS server OS type (default: linux)")
     parser.add_argument("--priv", 
                        action="store_true",
-                       help="Use privileged ports (<1024) to bypass root squashing")
+                       help="Use privileged ports (<1024) to bypass nfs_portmon")
 
     return parser.parse_args()
 
