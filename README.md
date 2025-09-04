@@ -13,6 +13,7 @@ Feel free to share what others features may be useful!
 
 <h1>COPYRIGHT</h1>
 Withtout a licence, the default copyright laws apply, meaning that I retain all rights to my source code and no one may reproduce, distribute, sell or create derivative works from my work. In case of violation: https://docs.github.com/github/site-policy/dmca-takedown-policy
+
 Since my goal is to make this available to the entire cybersecurity community, if you'd like to support me, feel free to clone this project — just make sure to notify me and credit me as the original author in the README.md
 
 <h1>PREREQUISITES</h1>
