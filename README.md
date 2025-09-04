@@ -11,6 +11,8 @@ It currently supports: NFSv3, NFSv4, and NFSv4.1.
 It allows the use of a proxy, directory listing, file reading and writing without mounting the remote share locally. Additionally, it performs user spoofing by letting the tester choose which UID, GID, and hostname to use when accessing the NFS server in case of whitelisting.
 Feel free to share what others features may be useful!
 
+If you want to clone it, add me in the readme.md as the original author please.
+
 <h1>PREREQUISITES</h1>
 PySocks==1.7.1
 
