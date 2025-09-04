@@ -11,7 +11,9 @@ It currently supports: NFSv3, NFSv4, and NFSv4.1.
 It allows the use of a proxy, directory listing, file reading and writing without mounting the remote share locally. Additionally, it performs user spoofing by letting the tester choose which UID, GID, and hostname to use when accessing the NFS server in case of whitelisting.
 Feel free to share what others features may be useful!
 
-If you want to clone it, pin me in the readme.md as the original author please.
+<h1>COPYRIGHT</h1>
+Withtout a licence, the default copyright laws apply, meaning that I retain all rights to my source code and no one may reproduce, distribute, sell or create derivative works from my work. In case of violation: https://docs.github.com/github/site-policy/dmca-takedown-policy
+Since my goal is to make this available to the entire cybersecurity community, if you'd like to support me, feel free to clone this project — just make sure to notify me and credit me as the original author in the README.md
 
 <h1>PREREQUISITES</h1>
 PySocks==1.7.1
