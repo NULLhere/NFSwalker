@@ -116,3 +116,16 @@ A module for Kerberos-based authentication is also planned, to handle scenarios 
 If you find any issues, please report them in as much detail as possible so I can try to reproduce them in my environment! Include things like: the software involved, Wireshark traffic captures, the proxy you are using, the scenario, and anything else that might help
 
 I don't know when (or if) I will be able to fix them, so feel free to open a pull request with a fix, I will review it as soon as I can!(:
+
+
+<h1>DISCLAIME</h1>
+
+This software is intended for legitimate use only, such as authorized penetration testing and/or nonprofit educational purposes. It should only be used on networks that you own or have explicit written permission from the owner to test.
+
+Misuse of this software for illegal activities, including unauthorized network intrusion, hacking, or any activity that violates applicable laws, is strictly prohibited. The author assumes no responsibility or liability for any damage, misuse, or legal consequences arising from the use of this software. By using airgeddon, you agree to indemnify and hold harmless the project contributors from any claims or legal action.
+
+It is the user's sole responsibility to ensure compliance with all applicable local, state, national, and international laws. If you are unsure about your legal rights to use this software, you should consult with an attorney before proceeding.
+
+This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement. In no event shall the author or copyright holder be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+Use this software at your own risk.
