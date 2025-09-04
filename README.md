@@ -118,7 +118,7 @@ If you find any issues, please report them in as much detail as possible so I ca
 I don't know when (or if) I will be able to fix them, so feel free to open a pull request with a fix, I will review it as soon as I can!(:
 
 
-<h1>DISCLAIME</h1>
+<h1>DISCLAIMER</h1>
 
 This software is intended for legitimate use only, such as authorized penetration testing and/or nonprofit educational purposes. It should only be used on networks that you own or have explicit written permission from the owner to test.
 
